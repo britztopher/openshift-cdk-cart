@@ -337,7 +337,6 @@ class CartInstance
     if version = Gem::Version.new(m['Cartridge-Version'] || "0.0.1") rescue nil
       m['Cartridge-Version'] = "#{version}-#{commit[0,8]}"
     end
-    m['Source-Url'] = source.to_s
     m.to_yaml.gsub(/\A---\n/,'')
   end
 
