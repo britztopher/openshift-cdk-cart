@@ -28,3 +28,4 @@ Endpoints:
       - Frontend:      ""
         Backend:       ""
         Options:       { websocket: false }
+Source-Url: https://github.com/britztopher/openshift-cdk-cart.git
